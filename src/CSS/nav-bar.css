@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(226, 215, 215);
+}
+
+.anim-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0.25rem;
+
+  transition: width 0.5s ease, left 0.5s ease, right 0.5s ease;
+}
+.anim-bottom-blue::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0.25rem;
+  background-color: rgb(4, 0, 221);
+  transition: width 0.5s ease, left 0.5s ease, right 0.5s ease;
+}
+.anim-bottom-red::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0.25rem;
+  background-color: #d00;
+  transition: width 0.5s ease, left 0.5s ease, right 0.5s ease;
+}
+
+.anim-bottom-red:hover::after {
+  width: 100%;
+}
+.anim-bottom-blue:hover::after {
+  width: 100%;
+}
+
+.to-center::after {
+  left: 50%;
+}
+
+.to-center:hover::after {
+  left: 0;
+}
