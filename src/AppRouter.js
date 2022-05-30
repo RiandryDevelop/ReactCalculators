@@ -21,7 +21,7 @@ export const AppRouter = () => {
           <Routes>
             <Route path="/Calculator2" element={<Calculator2 />} />
             <Route path="/" element={<Calculator />} />
-//             <Route element={<Navigate replace to="/" />} />
+            <Route element={<Navigate replace to="/" />} />
           </Routes>
         </div>
       </div>
