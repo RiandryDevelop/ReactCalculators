@@ -22,7 +22,7 @@ export const AppRouter = () => {
             <Route exact  path="/Calculator2" element={<Calculator2 />} />
             <Route exact  path="/" element={<Calculator />} />
             {/* <Route element={<Navigate replace to="/" />} /> */}
-            <Route component = {Calculator} />
+            <Redirect to ="/" />
           </Routes>
         </div>
       </div>
