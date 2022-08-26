@@ -21,7 +21,8 @@ export const AppRouter = () => {
           <Routes>
             <Route exact  path="/Calculator2" element={<Calculator2 />} />
             <Route exact  path="/" element={<Calculator />} />
-            <Route exact  element={<Navigate replace to="/" />} />
+            {/* <Route element={<Navigate replace to="/" />} /> */}
+            <Route component = {Calculator} />
           </Routes>
         </div>
       </div>
