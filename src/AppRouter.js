@@ -14,9 +14,10 @@ export const AppRouter = () => {
 
         <div className="container">
           <Routes>
-            <Route path="/Calculator2" element={<Calculator2 />} />
-            <Route path="/" element={<Calculator />} />
-            <Route element={<Navigate replace to="/" />} />
+            <Route exact  path="/Calculator2" element={<Calculator2 />} />
+            <Route exact  path="/" element={<Calculator />} />
+            {/* <Route element={<Navigate replace to="/" />} /> */}
+            <Redirect to ="/" />
           </Routes>
         </div>
       </div>

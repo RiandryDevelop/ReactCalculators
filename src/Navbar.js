@@ -12,13 +12,13 @@ export const Navbar = () => {
               <NavLink
                 className="nav-link active anim-bottom-blue to-center "
                 aria-current="page"
-                to="/"
+                to="./"
               >
                 Calculator-1
               </NavLink>
               <NavLink
                 className="nav-link  anim-bottom-red to-center "
-                to="/Calculator2"
+                to="./Calculator2"
               >
                 Calculator-2
               </NavLink>
