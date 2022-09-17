@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "calculators-app",
+  "homepage": "https://github.com/RiandryDevelop/ReactCalculators.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
